@@ -1,8 +1,10 @@
-# React + Vite
+# React + Vite App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Proyecto Final de Ezpecializacion en React.JS
 
-Currently, two official plugins are available:
+Proyecto hecho en React.Js utilizando los datos de la [PokeApi](https://pokeapi.co/)
+los cuales fueron obtenidos mediante el uso de [axios](https://axios-http.com/es/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se estilo con Css la pagina principal,en la pagina donde se detallan las caracteristicas del pokemon resta dar estilo
+pero se agrego el uso de la libreria [react-charts-js](https://react-chartjs-2.js.org/)
+para mostrar las habilidades de cada pokemon con un grafico del tipo Radar.
