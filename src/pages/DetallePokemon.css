@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --clr-black: #1c1c1c;
+  --clr-gray: #ececec;
+  --clr-white: #f7f7f7;
+
+  --normal: #a8a878;
+  --fire: #f08030;
+  --water: #6890f0;
+  --grass: #78c850;
+  --electric: #f8d030;
+  --ice: #98d8d8;
+  --fighting: #c03028;
+  --poison: #a040a0;
+  --ground: #e0c068;
+  --flying: #a890f0;
+  --psychic: #f85888;
+  --bug: #a8b820;
+  --rock: #b8a038;
+  --ghost: #705898;
+  --dark: #705848;
+  --dragon: #7038f8;
+  --steel: #b8b8d0;
+  --fairy: #f0b6bc;
+}
+
+/*-------------------------------------------*/
+.chart-container {
+  margin: auto;
+  max-width: 450px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.img-info-hab {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.img-container {
+  padding: 45px;
+  margin: auto;
+}
+
+.img-detalle {
+  width: 300px;
+  max-width: 450px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-image: linear-gradient(to bottom, #2afadf 10%, #4c83ff 90%);
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: 15px auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.Nombre {
+  margin: auto;
+  padding: 15px;
+}
+
+.descripcion {
+  margin: auto;
+  padding: 10px;
+}
+
+.hab-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.Hab {
+  margin: auto;
+  padding: 10px;
+}
+
+.Hab-info {
+  margin: auto;
+  padding: 5px;
+}
+
+.radar-container {
+  padding: 45px;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
+}
+
+.btn-home {
+  background-color: #c0c0c0;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: whitesmoke;
+}
