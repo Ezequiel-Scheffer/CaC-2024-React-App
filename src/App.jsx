@@ -5,7 +5,7 @@ import DetallePokemon from './pages/DetallePokemon';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/CaC-2024-React-App/'>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/pokemon/:id" element={<DetallePokemon />} />
